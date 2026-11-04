@@ -1,0 +1,18 @@
+# MATLAB
+*.asv
+*.autosave
+*.m~
+*.mex*
+slprj/
+
+# files written by the apps
+exports/*
+!exports/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+
+# system
+.DS_Store
+Thumbs.db

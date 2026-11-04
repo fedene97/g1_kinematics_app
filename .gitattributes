@@ -1,0 +1,11 @@
+*.m      text eol=lf linguist-language=MATLAB
+*.py     text eol=lf
+*.md     text eol=lf
+*.csv    text eol=lf
+*.json   text eol=lf
+# assets of the Unitree package: never touch line endings
+*.urdf   -text
+*.xml    -text
+*.stl    binary
+*.STL    binary
+*.png    binary
