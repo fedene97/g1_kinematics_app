@@ -6,6 +6,11 @@ Move the joints of the **Unitree G1** humanoid and watch the robot (*forward kin
 * **Inverse kinematics** – move the target of a hand, foot, pelvis or torso and read the 29 joint angles, with their limits. Feet on the ground or fixed pelvis, centre of mass over the feet, optional self-collision avoidance.
 * Save and load poses, save the 3D view as a PNG, replay a pose in MuJoCo.
 
+<p align="center">
+  <img src="docs/g1_app_view.png" width="480" alt="The Unitree G1 in the 3D view of the app, with the CAD meshes and the coordinate frames of hands and feet">
+</p>
+<p align="center"><em>The 3D view of the app, saved with the <strong>Save image (PNG)</strong> button.</em></p>
+
 ## What you need
 
 | | |
