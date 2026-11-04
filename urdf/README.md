@@ -1,6 +1,6 @@
 # urdf/
 
-The app expects the Unitree G1 description package here:
+The Unitree G1 description package lives in `urdf/g1_description/`. The app uses:
 
 ```
 urdf/g1_description/
@@ -9,4 +9,4 @@ urdf/g1_description/
     meshes/              STL meshes (CAD view and collision capsules)
 ```
 
-The folder comes from Unitree's `unitree_ros` repository (`robots/g1_description`); see [`../THIRD_PARTY_NOTICES.md`](../THIRD_PARTY_NOTICES.md) for the license. If the meshes are missing the apps still start, but without the CAD view and without collision checking.
+The other files of the package (23-DoF and hand variants, images, notebooks) are kept so that the package stays intact. It comes from Unitree's `unitree_ros` repository (`robots/g1_description`) under the BSD 3-Clause license, see [`g1_description/LICENSE`](g1_description/LICENSE) and [`../THIRD_PARTY_NOTICES.md`](../THIRD_PARTY_NOTICES.md). If the meshes are missing the apps still start, but without the CAD view and without collision checking.

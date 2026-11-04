@@ -9,3 +9,5 @@
 *.stl    binary
 *.STL    binary
 *.png    binary
+# do not count the Unitree package (URDF, notebooks, CMake) in GitHub's language statistics
+urdf/g1_description/** linguist-vendored
